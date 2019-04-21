@@ -9,11 +9,12 @@ tags:
 thumbnail: /images/effectivejava.png
 ---
 
-
+{% codeblock lang:java default %}
 class Point {
 	public double x;
 	public double y;
 }
+{% endcodeblock%}
 데이터 필드를 직접 조작할 수 있어서 캡슐화의 이점을 누릴 수 없다. API를 변경하지 않고서는 내부 표현을 변경할 수 없고, 불변식도 강제할 수 없고, 필드를 사용하는 순간에 어떤 동작이 실행되도록 만들수도 없다. <u>이는 private 필드와 public 접근자 메서드로 바꿔야 한다.</u>
 
 public 클래스의 데이터 필드를 공개하게 되면, 그 내부 표현을 변경할 수 없게 된다. 변경하면 이미 작성된 클라이언트 코드를 깨뜨리게 되게 때문이다. 하지만 package-private 클래스나 priavte 중첩 클래스는 데이터 필드를 공개하더라도 잘못이라 말할 수 없다.

@@ -14,7 +14,7 @@ thumbnail: /images/effectivejava.png
 가령 String s = new String("test");라는 문장을 반복문안에 넣을경우 매번 String 객체가 생성된다.
 이는 String s = "test"; 로 대체하는것이 낫다. 이는 실행할 때마다 객체를 만드는 대신 동일한 String 객체를 사용하며 같은 JVM안에서는 해당 객체를 재사용하게 된다.
 생성자와 정적팩터리 메서드를 함께 제공하는 변경 불가능 클래스의 경우 생성자 대신 정적 팩터리 메소드를 이용하면 불필요한 객체 생성을 피할 수 있을 때가 많다. (Boolean(String) 보다는 Boolean.valueOf(String)쪽이 더 바람직하다. 생성자는 호출할 때마다 객체를 만들지만 정적 팩터리 메서드는 그러지 않는다.) 변경 불가능한 객체 뿐 아니라 변경가능한 객체도 재사용할 수 있다.
-
+{% codeblock lang:java default %}
 ..
 public boolean isIn( ){
 	Calendar gmtCal = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
@@ -26,9 +26,10 @@ public boolean isIn( ){
 	Date end = gmtCal.getTime();
 	...
 }
+{% endcodeblock%}
 와 같은 코드가 존재할 때 isIn메서드는 호출될 때 마다 Caendar, TimeZone,Date객체 두개를 쓸데없이 만들어낸다.
 이는 `정적 초기화 블록`을 통해 개선하는것이 좋다.
-
+{% codeblock lang:java default %}
 private static final Date START;
 private static final Date END;
 
@@ -42,6 +43,7 @@ public boolean isIn( ) {
 		END = gmtCal.getTime();
 	}
 }
+{% endcodeblock%}
 
 이렇게 할 경우 Caendar, TimeZone,Date <u>객체는 클래스가 초기화 될 때 한번만 만들어진다</u>. 이를통해 성능향상, 코드가 명료해진다(START, END가 상수라는것을 한눈에 알 수 있다)
 

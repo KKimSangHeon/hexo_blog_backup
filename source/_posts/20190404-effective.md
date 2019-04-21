@@ -38,10 +38,12 @@ public로 할 경우 메서드를 통해 값을 변경할 수 있게된다. 따�
 public static final Thing[] VALUES={ ... }; 	//보안 문제를 초래할 수 있는 코드
 정의 했을경우 해결법.
 1.public으로 선언했던 배열은 private로 바꾸고 변경이 불가능한 public 리스트를 하나 만든다,
+{% codeblock lang:java default %}
 public static final Thing[] VALUES={ ... };
 public static final Thing[] values( ){
 	Collection.unmodifiableList(Arrays.asList(PRIVATE_VALUES));
 }
+{% endcodeblock%}
 2.어느 자료형으로 반환해야 클라이언트가 성능을 낼 수 있을까를 생각해보자.
 
 
