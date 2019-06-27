@@ -31,6 +31,8 @@ $ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.
 
 $ choco install minikube kubernetes-cli
 
+$ minikube start
+
 $ kubectl run sangheonkim --image=gcr.io/google-samples/kubernetes-bootcamp:v1 --port=8080
 
 
