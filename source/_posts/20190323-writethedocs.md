@@ -3,6 +3,9 @@ title: 190323. Write the docs 밋업 참가
 date: 2019-03-23 14:06:12
 tags: Write the docs,
 thumbnail: /images/wtd.png
+categories:
+- Etc
+- 강연
 ---
 
 ### Write the docs
