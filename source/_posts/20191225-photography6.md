@@ -25,3 +25,5 @@ tags:
 {% asset_img IMG_2300.jpg 1 %}
 {% asset_img IMG_2368.jpg 1 %}
 {% asset_img IMG_2398.jpg 1 %}
+{% asset_img IMG_2459.jpg 1 %}
+{% asset_img IMG_2493.jpg 1 %}

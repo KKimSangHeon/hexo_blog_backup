@@ -2,7 +2,7 @@
 title: Centos에서 Streamset 설치하기
 date: 2019-12-26 21:11:21
 categories:
-- Etc
+- CS
 - 오픈소스,기술
 tags:
 - Streamset
@@ -61,11 +61,10 @@ admin/ admin
 ```
 
 만약 경로관련 문제로 실행이 안될경우
-스트림셋 실행하기 전에
+스트림셋 실행하기 전에 아래를 입력하고 `./streamsets dc` 해볼것
 ```
 export SDC_CONF=/etc/sdc
 export SDC_DATA=/var/lib/sdc
 export SDC_LOG=/var/log/sdc
 export SDC_HOME=/opt/streamsets-datacollector
 ```
-하고 실행
