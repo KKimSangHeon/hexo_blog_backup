@@ -3,9 +3,9 @@ title: 20191214 우면산
 date: 2019-12-25 23:01:30
 categories:
 - About Me
-- Photography
+- Photograph
 tags:
-- Photography
+- Photograph
 ---
 주말에 등산하며
 

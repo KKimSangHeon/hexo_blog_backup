@@ -3,9 +3,9 @@ title: 20191222 부산 UFC 관람
 date: 2019-12-25 23:01:35
 categories:
 - About Me
-- Photography
+- Photograph
 tags:
-- Photography
+- Photograph
 ---
 웅형과 부산 UFC 관람
 

@@ -57,7 +57,7 @@ admin/ admin
 # mkdir error
 # mkdir origin		// 원천데이터
 # mkdir destination	//최종적으로 변환된 것이 저장된 공간
-
+# ./streamsets dc
 ```
 
 만약 경로관련 문제로 실행이 안될경우
@@ -68,3 +68,6 @@ export SDC_DATA=/var/lib/sdc
 export SDC_LOG=/var/log/sdc
 export SDC_HOME=/opt/streamsets-datacollector
 ```
+
+백그라운드로 돌리기 위해선 아래를 입력
+nohup ./streamset dc &

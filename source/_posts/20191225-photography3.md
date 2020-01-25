@@ -3,9 +3,9 @@ title: 20191208 이화마을 낙상공원
 date: 2019-12-25 22:55:08
 categories:
 - About Me
-- Photography
+- Photograph
 tags:
-- Photography
+- Photograph
 ---
 소모임 가입 후 첫 활동
 

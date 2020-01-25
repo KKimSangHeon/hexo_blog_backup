@@ -3,9 +3,9 @@ title: 20191229 판교
 date: 2019-12-29 13:42:02
 categories:
 - About Me
-- Photography
+- Photograph
 tags:
-- Photography
+- Photograph
 ---
 오후 반차쓴 날 현석이형 집들이 가기전에 판교에서
 

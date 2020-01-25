@@ -3,9 +3,9 @@ title: 20191122 양재공원
 date: 2019-12-25 22:46:14
 categories:
 - About Me
-- Photography
+- Photograph
 tags:
-- Photography
+- Photograph
 
 ---
  점심시간에 날이 좋아서

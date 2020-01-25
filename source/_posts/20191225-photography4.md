@@ -3,9 +3,9 @@ title: 20191209 우면동 거리
 date: 2019-12-25 23:01:19
 categories:
 - About Me
-- Photography
+- Photograph
 tags:
-- Photography
+- Photograph
 ---
 야근하는 동기를 기다리며 첫 패닝샷
 

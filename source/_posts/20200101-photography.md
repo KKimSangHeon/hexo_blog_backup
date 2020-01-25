@@ -3,9 +3,9 @@ title: 20200101 양재천
 date: 2020-01-01 21:29:33
 categories:
 - About Me
-- Photography
+- Photograph
 tags:
-- Photography
+- Photograph
 ---
 집 앞 양재천 산책
 {% asset_img IMG_2708.jpg 1 %}
