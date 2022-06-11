@@ -1,5 +1,5 @@
 ---
-title: ServerMonitoring
+title: ServerMonitoring Tool 개발
 date: 2022-02-09 21:19:52
 categories:
 - About Me
@@ -127,9 +127,3 @@ ipinfo버튼을 클릭하면 접속한 ip에 대한 자세한 정보를 확인�
 ssh를 통해 접속을 시도했으나 실패한 히스토리이다.
 {% asset_img  K-019.png ipinfo %}
 ipinfo버튼을 클릭하면 접속을 시도한 ip에 대한 자세한 정보를 확인할 수 있다.
-
-
-
-
-
-
