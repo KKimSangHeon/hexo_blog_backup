@@ -697,7 +697,7 @@ public void configure(WebSecurity web) throws Exception {
 아래처럼 해도 되지 않나??
 ```java
 @Override
-public void configure(WebSecurity web) throws Exception {
+public void configure(HttpSecurity http) throws Exception {
            http.authorizeRequests()
                      .mvcMatchers("/").permitAll()
                      .mvcMatchers("/admin").hasRole("ADMIN")
